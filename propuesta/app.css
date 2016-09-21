@@ -6,7 +6,7 @@ a{
     color: #0085CD;
 }
 
-.top-bar{
+.top-bar, .top-bar ul{
     font-family: 'Lato', sans-serif;
     background-color: #EBEBEB;
 }
