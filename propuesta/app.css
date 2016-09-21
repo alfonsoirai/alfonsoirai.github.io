@@ -11,10 +11,19 @@ a{
     background-color: #EBEBEB;
 }
 
-h1{
+.title-bar-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+h1, h5{
     font-family: 'Lato', sans-serif;
     color: white;
     font-weight: bold;
+}
+
+.column h5{
+    color: #FF5832;
 }
 
 h3, h4{
