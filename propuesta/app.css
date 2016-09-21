@@ -21,3 +21,7 @@ h3, h4{
 .callout a{
     color: white;
 }
+
+.callout{
+    background-color: #FF8101;
+}
