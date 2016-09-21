@@ -2022,14 +2022,14 @@ select {
   border: 1px solid rgba(10, 10, 10, 0.25);
   border-radius: 0;
   position: relative;
-  color: #0a0a0a;
-  background-color: white; }
+  color: #E8420C;
+  background-color: #FF9C3C; }
   .callout > :first-child {
     margin-top: 0; }
   .callout > :last-child {
     margin-bottom: 0; }
   .callout.primary {
-    background-color: #def0fc; }
+    background-color: #FF9C3C; }
   .callout.secondary {
     background-color: #ebebeb; }
   .callout.success {
