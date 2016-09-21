@@ -9,4 +9,11 @@ body {
 h1{
     font-family: 'Lato', sans-serif;
     color: white;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    color: #2D2D2D;
+    font-weight: bold;
 }
