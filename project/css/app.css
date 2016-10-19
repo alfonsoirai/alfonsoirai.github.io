@@ -45,7 +45,7 @@ body{
 }
 
 header{
-    background: url(/img/people-friends-relaxing-chilling.jpg) 20% 20% no-repeat;
+    background: url(../img/people-friends-relaxing-chilling.jpg) 20% 20% no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -96,7 +96,7 @@ header .title{
 }
 
 .image-banner{
-    background: url(/img/bus-school-school-bus-yellow-159658.jpeg) 20% 20% no-repeat;
+    background: url(../img/bus-school-school-bus-yellow-159658.jpeg) 20% 20% no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -125,7 +125,7 @@ header .title{
 }
 
 #social-impact{
-    background: url(/img/pexels-photo-2.jpg)20% 20% no-repeat;
+    background: url(../img/pexels-photo-2.jpg)20% 20% no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -134,7 +134,7 @@ header .title{
     background-color: aliceblue;
 }
 #experts{
-    background: url(/img/pexels-photo-1.jpg)20% 20% no-repeat;
+    background: url(../img/pexels-photo-1.jpg)20% 20% no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -143,7 +143,7 @@ header .title{
     background-color: aliceblue;
 }
 #motivations{
-    background: url(/img/pexels-photo-3.jpg)20% 20% no-repeat;
+    background: url(../img/pexels-photo-3.jpg)20% 20% no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
