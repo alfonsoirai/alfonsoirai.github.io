@@ -1,0 +1,161 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.top-bar{
+    background-color: rgba(255,255,255,0.9);
+    font-weight: 400;
+}
+
+.top-bar-left{
+    padding-left: 50px;
+    font-size: 20px;
+    color: #393939;
+}
+
+.top-bar-right{
+    padding-right: 50px;
+    padding-top: 2px; 
+}
+
+.top-bar ul{
+    background-color: rgba(255,255,255,0);
+}
+
+.top-bar a{
+    color: dimgrey;
+}
+
+.top-bar a:hover{
+    color: #00B2D5;
+}
+
+.top-bar .button{
+    background-color: #00B2D5;
+    color: white;
+}
+
+.top-bar li{
+    padding-left: 3px;
+}
+
+.top-bar .button:hover{
+    background-color: #00A2C3;
+    color: white;
+}
+
+header{
+    background: url(../img/startup-photos-2.jpg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500x;
+    font-family: 'Lato', sans-serif;
+}
+
+header h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 72px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    color: white;
+    font-weight: 700;
+}
+
+header h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    color: white;
+    font-weight: 500;
+}
+
+.title{
+    padding-top:150px; 
+}
+
+.questions {
+    padding-top: 25px;
+    background-color: #FAFAFA;
+    padding-bottom: 25px;
+}
+
+.questions h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #00B2D5;
+}
+
+.questions h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: dimgrey;
+}
+
+.image-banner{
+    background: url(/img/bus-school-school-bus-yellow-159658.jpeg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+}
+
+.impacts{
+    padding-top: 25px;
+    background-color: #FAFAFA;
+    padding-bottom: 25px;
+}
+
+.impacts h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #393939;
+}
+
+.impacts h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: dimgrey;
+}
+
+.callout{
+    padding-top: 30px;
+    background-color: rgba(255,255,255,1);
+    color: #363636;
+    font-family: 'Lato', sans-serif;
+}
+
+.callout h5{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+footer{
+    background-color: #363636;
+    height: 200px;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #E1E1E1;
+}
+
+.copyright{
+    padding-top: 30px;
+}
+.related-sites{
+    padding-top: 10px;
+}
+
+.watch{
+    text-align: center;
+}
