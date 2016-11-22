@@ -1,0 +1,770 @@
+body{
+    font-family: 'Whitney', sans-serif;
+}
+
+.top-nav{
+    height: 3px;
+    background: #002145;
+}
+
+.brand-banner{
+    height: 100px;
+    background: white;
+}
+
+.brand-banner .button {
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: 0.85em 1em;  
+  font-size: 0.8rem;
+  background-color: #002145;
+  color: #fefefe; } {
+  float: right;
+}
+
+.brand-banner .button:hover{
+    background-color: #007DA3;
+}
+
+#logo-col{
+    text-align: center;
+}
+
+#textlogo-col{
+    text-align: center;
+}
+
+#logosig-col{
+    text-align: center;
+}
+
+#search-col{
+    text-align: right;
+}
+
+.top-bar {
+    height: auto;
+}
+
+.top-bar, .top-bar ul {
+    background: #E5E5E5;
+}
+
+.top-bar a{
+    font-size: 15px;
+    color: #002145;
+}
+
+.top-bar-left {
+    float: left;
+    margin-left: 6rem;
+    font-weight: 600;
+}
+
+.top-bar-right {
+  float: right;
+  margin-right: 0;
+}
+
+
+#top-direc{
+    font-weight: 600;
+}
+
+#top-direc:hover{
+    color: rgba(73,127,163,1);
+}
+
+[type='search'], text-area{
+    height: 2rem;
+    padding-right: 1rem;
+    font-size: 14px;
+}
+
+.navigation{
+    height: 45px;
+    background-color: #007DA3;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navigation li{
+    height: 45px;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navigation li:hover{
+    background-color: #002145;
+}
+
+.navigation a{
+    color: white;
+}
+
+.nav-principal{
+    float: left;
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+
+header{
+    background: url(../img/header-desarrollo.jpg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 3rem;
+    font-family: 'Whitney', sans-serif;
+}
+
+.h1-header{
+    position: relative;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0px 1px 1px #000;
+    font-size: 25px;
+    font-family: 'Whitney', sans-serif;
+    text-transform: uppercase
+    
+}
+.h2-header{
+    position: relative;
+    text-shadow: 0px 1px 1px #000;
+    font-weight: 400;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Whitney', sans-serif;
+}
+
+.marketing-hero .button{
+    position: relative;
+    background-color: #002145;
+    font-weight: 600;
+    box-shadow: 0px 1px 1px #000;
+}
+
+.marketing-hero .button:hover{
+    background-color: #007DA3;
+}
+
+.row{
+    padding-top: 25px;
+}
+
+.homepage{
+    padding-top: 270px;
+}
+
+.news img{
+    align-content: center;
+}
+
+.news h2{
+    font-family: 'Whitney', sans-serif;
+    color: #002145;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.news h4{
+    padding-top: 5px;
+    font-family: 'Whitney', sans-serif;
+    color: #007DA3;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.news h6{
+    font-family: 'Whitney', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.news h5{
+    font-family: 'Whitney', sans-serif;
+    color: dimgrey;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+#mas-titulares{
+    color: #007DA3;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#titulares a{
+    color: black;
+    font-weight: 400;
+    text-align: left
+}
+
+#titulares li{
+    padding-top: 7px;
+    text-align: left;
+}
+
+#titulares a:hover{
+    color: #979797;
+}
+
+#mas-noticias{
+    color: #002145;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#mas-noticias:hover{
+    color: #979797;
+}
+
+ul {
+	list-style-type: none;	
+}
+
+.events h2{
+    font-family: 'Whitney', sans-serif;
+    color: #002145;
+    font-weight: 100;
+    font-size: 27px;
+    font-weight: 300;
+}
+
+#img-footer{
+    padding-top: 8px;
+    padding-left: 5px;
+    height: 60px;
+    font-size: 14px;
+    color: #002145;
+    background-color: #EFEFEF;
+    padding-bottom: 8px;   
+}
+
+#event-title{
+    font-family: 'Whitney', sans-serif;
+    color: rgba(73,127,163,1);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#event-description{
+    font-family: 'Whitney', sans-serif;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.media-object img{
+    max-width: 100px;
+}
+
+.lower-bar{
+    border-color: #007DA3;
+    border-top-style: solid;
+    border-width: 1px;
+}
+
+.lower-bar h5{
+    font-family: 'Whitney', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #002145;
+}
+
+.lower-bar p{
+    font-family: 'Whitney', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #002145;
+}
+
+.lower-bar a{
+    color: #007DA3;
+}
+
+.lower-bar a:hover{
+    text-decoration: underline;
+}
+
+.lower-bar li{
+    color: #002145;
+}
+
+.social-list p{
+    color: #007DA3;
+    font-size: 36px;
+    letter-spacing: 7px;
+}
+
+.footer{
+    background-color: #002145;
+    height: auto;
+}
+
+.footer h3{
+    font-family: 'Whitney', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.footer p, .footer a{
+    font-family: 'Whitney', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    border-color: rgba(73,127,163,0.3);
+    border-top-style: solid;
+    border-width: 1px;
+}
+
+.copyright p {
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.copyright a {
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#politicas{
+    text-align: right;
+}
+
+
+
+#programas-academicos{
+    background: url(../programas-academicos/img/header.jpg) 20% 20% no-repeat;
+    height: 490px;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.breadcrumbs a{
+    color: #007DA3;
+}
+
+.title h1{
+    font-family: 'Whitney', sans-serif;
+    font-size: 60px;
+    color: #002145;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.subtitle h2{
+    font-family: 'Whitney', sans-serif;
+    font-size: 50px;
+    color: #007DA3;
+    letter-spacing: 2px;
+}
+
+.subtitle h3{
+    font-family: 'Whitney', sans-serif;
+    font-size: 30px;
+    color: #007DA3;
+}
+
+#section{
+    border-top-style: solid;
+    border-color: #e5e5e5;
+    border-width: 1px;
+}
+
+#section h2{
+    font-family: 'Whitney', sans-serif;
+    color: #002145;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+#section h3{
+    font-family: 'Whitney', sans-serif;
+    color: #007DA3;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#section h5{
+    font-family: 'Whitney', sans-serif;
+    color: #002145;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#section h6, #section a {
+    font-family: 'Whitney', sans-serif;
+    color: #007DA3;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#section button{
+    background-color: white;
+    border-color: #007DA3;
+    color: #007DA3;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#section button:hover{
+    background-color: #007DA3;
+    border-color: #007DA3;
+    color: white;
+}
+
+#section p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#acerca{
+    background: url(../acerca/img/header.jpg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 490px;
+}
+
+#vida-estudiantil{
+    background: url(../vida-estudiantil/img/header.jpg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 490px;
+}
+
+#prioridades-estrategicas{
+    background: url(../prioridades-estrategicas/img/header.jpg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 490px;
+}
+
+#life-sub {
+    font-family: 'Whitney', sans-serif;
+    font-size: 48px;
+    color: #002145;
+    letter-spacing: 2px;
+}
+
+.events #trans {
+    font-family: sans-serif;
+    color:rgba(73,127,163,0);
+}
+
+#vision-header{
+    background: url(../acerca/img/vision-header.jpg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 490px;
+}
+
+#admin-header{
+    background: url(../programas-academicos/img/admin-header.jpeg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 430px;
+}
+
+.competencias {
+    height: 620px;
+}
+
+.competencias ul{
+    list-style: disc;
+}
+
+#admin{
+    background-color: #FFFBF6;
+    color: black;
+}
+
+#admin h2{
+    font-family: 'Whitney', sans-serif;
+    color: #DA7D2A;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+#admin-banner{
+    background: url(../programas-academicos/img/admin/admin-banner.jpg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 280px;
+}
+
+.plan-estudios{
+    font-family: 'Whitney', sans-serif;
+}
+
+#admin-plan h2{
+    font-family: 'Whitney', sans-serif;
+    color: #DA7D2A;
+    text-align: center;
+}
+
+.plan-estudios a{
+    color: #DA7D2A;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.plan-estudios{
+    font-size: 12px;
+}
+
+#modulos{
+    list-style: disc;
+}
+
+.ready{
+    background-color: #F2F2F2;
+    height: 250px;
+    text-align: center;
+}
+
+.ready h1{
+    padding-top: 40px;
+    font-family: 'Whitney', sans-serif;
+    font-weight: 100;
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #002145;
+    vertical-align: middle;
+}
+
+.ready a{
+    background-color: #FF512E;
+    vertical-align: center;
+}
+
+.ready a:hover{
+    background-color: #FF5D3C;
+    vertical-align: center;
+}
+
+th{
+    color: rgba(73,127,163,1);
+    font-size: 14px;
+}
+
+#conta-header{
+    background: url(../programas-academicos/img/conta-header.jpg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 430px;
+}
+
+#conta-banner{
+    background: url(../programas-academicos/img/conta-banner.jpg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 280px;
+}
+
+#electro-header{
+    background: url(../programas-academicos/img/electro-header.jpeg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 430px;
+}
+
+#electro{
+    background-color: #C0CFE5;
+    color: black;
+}
+
+#electro h2{
+    font-family: 'Whitney', sans-serif;
+    color: #325F8F;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#electro-banner{
+    background: url(../programas-academicos/img/electro-banner.jpeg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 280px;
+}
+
+#electro-plan h2{
+    font-family: 'Whitney', sans-serif;
+    color: #325F8F;
+    text-align: center;
+}
+
+#electro-plan a{
+    color: #325F8F;
+}
+
+#logistic-header{
+    background: url(../programas-academicos/img/logistic-header.jpeg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 430px;
+}
+
+#logistic-banner{
+    background: url(../programas-academicos/img/logistic-banner.jpeg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 280px;
+}
+
+.se-parte{
+    background-color: #007DA3;
+    height: 100px;
+    box-shadow: 1px 3px 5px #e1e1e1;
+}
+.se-parte h1{
+    font-family: 'Whitney', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+#logos{
+    padding-top: 1rem;
+    text-align: right;
+}
+
+#progra-banner{
+    background: url(../programas-academicos/img/progra-banner.jpg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 280px;
+}
+
+#progra-header{
+    background: url(../programas-academicos/img/progra-header.jpg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 430px;
+}
+
+#auto-header{
+    background: url(../programas-academicos/img/auto-header.jpeg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 430px;
+}
+
+#auto-banner{
+    background: url(../programas-academicos/img/auto-banner.jpeg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 280px;
+}
+
+#logo-col-proceso{
+    float: left;
+}
+
+#admision-banner{
+    background-color: #007DA3;
+    height: 100px;
+}
+
+#textlogo-col-proceso h1{
+    font-family: 'Whitney', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#search-col-proceso a{
+    float: right;
+    color: gainsboro;
+}
+
+#search-col-proceso a:hover{
+    float: right;
+    color: gainsboro;
+    text-decoration: underline;
+}

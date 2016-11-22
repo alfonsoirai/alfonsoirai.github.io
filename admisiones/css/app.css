@@ -1,0 +1,393 @@
+body{
+    font-family: 'Whitney', sans-serif;
+}
+
+.top-nav{
+    height: 3px;
+    background: #002145;
+}
+
+.brand-banner{
+    height: 100px;
+    background: white;
+}
+
+.brand-banner .button {
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: 0.85em 1em;  
+  font-size: 0.8rem;
+  background-color: #6EC4E8;
+  color: #fefefe; } {
+  float: right;
+}
+
+.brand-banner .button:hover{
+    background-color: #002145;
+}
+
+#logo-col{
+    text-align: center;
+}
+
+#textlogo-col{
+    text-align: center;
+}
+
+#logosig-col{
+    text-align: center;
+}
+
+#search-col{
+    text-align: right;
+}
+
+.top-bar {
+    height: 52px;
+}
+
+.top-bar, .top-bar ul {
+    background: #E5E5E5;
+}
+
+.top-bar li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top-bar a{
+    font-size: 16px;
+    color: #002145;
+    font-weight: 300;
+}
+
+.top-bar a:hover{
+    font-size: 16px;
+    color: rgba(73,127,163,1);
+    font-weight: 300;
+}
+
+.top-bar-left {
+    float: left;
+    margin-left: 5rem;
+    font-weight: 600;
+}
+
+.top-bar-right {
+    float: right;
+    margin-right: 6rem;
+}
+
+[type='search'], text-area{
+    height: 2rem;
+    padding-right: 1rem;
+    font-size: 14px;
+}
+
+.navigation{
+    height: 57px;
+    background-color: #002145;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navigation li{
+    height: 45px;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navigation li:hover{
+    background-color: rgba(73,127,163,1);
+}
+
+.navigation a{
+    color: white;
+}
+
+.nav-principal{
+    float: left;
+    padding-right: 5rem;
+}
+
+header{
+    background: url(../img/color-run.jpg) 20% 20% no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 490px;
+    font-family: 'Whitney', sans-serif;
+}
+
+.breadcrumbs a{
+    color: rgba(73,127,163,1);
+}
+
+.row{
+    padding-top: 25px;
+    
+}
+
+.homepage{
+    padding-top: 270px;
+}
+
+.news img{
+    align-content: center;
+}
+
+.news h2{
+    font-family: 'Whitney', sans-serif;
+    color: #002145;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.news h4{
+    padding-top: 5px;
+    font-family: 'Whitney', sans-serif;
+    color: rgba(73,127,163,1);
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.news h6{
+    font-family: 'Whitney', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#mas-titulares{
+    color: rgba(73,127,163,1);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#titulares a{
+    color: black;
+    font-weight: 400;
+    text-align: left
+}
+
+#titulares li{
+    padding-top: 7px;
+    text-align: left;
+}
+
+#titulares li:hover{
+    color: #E5E5E5;
+}
+
+#mas-noticias{
+    color: #002145;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Whitney', sans-serif;
+}
+
+#mas-noticias:hover{
+    color: #979797;
+}
+
+ul {
+	list-style-type: none;	
+}
+
+.events h2{
+    font-family: 'Whitney', sans-serif;
+    color: #002145;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.events h3{
+    font-family: 'Whitney', sans-serif;
+    color: rgba(73,127,163,1);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.events button{
+    background-color: white;
+    border-color: rgba(73,127,163,1);
+    color: rgba(73,127,163,1);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.events button:hover{
+    background-color: rgba(73,127,163,1);
+    border-color: rgba(73,127,163,1);
+    color: white;
+}
+
+.events p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#img-footer{
+    padding-top: 8px;
+    padding-left: 5px;
+    height: 60px;
+    font-size: 14px;
+    color: #002145;
+    background-color: #EFEFEF;
+    padding-bottom: 8px;   
+}
+
+#event-title{
+    font-family: 'Whitney', sans-serif;
+    color: rgba(73,127,163,1);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#event-description{
+    font-family: 'Whitney', sans-serif;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.media-object img{
+    max-width: 100px;
+}
+
+.lower-bar{
+    border-color: rgba(73,127,163,1);
+    border-top-style: solid;
+    border-width: 1px;
+}
+
+.lower-bar h5{
+    font-family: 'Whitney', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #002145;
+}
+
+.lower-bar p{
+    font-family: 'Whitney', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #002145;
+}
+
+.lower-bar a{
+    color: rgba(73,127,163,1);
+}
+
+.lower-bar a:hover{
+    text-decoration: underline;
+}
+
+.lower-bar li{
+    color: #002145;
+}
+
+.social-list p{
+    color: rgba(73,127,163,1);
+    font-size: 36px;
+    letter-spacing: 7px;
+}
+
+.footer{
+    background-color: #002145;
+    height: 350px;
+}
+
+.footer h3{
+    font-family: 'Whitney', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.footer p, .footer a{
+    font-family: 'Whitney', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    border-color: rgba(73,127,163,0.3);
+    border-top-style: solid;
+    border-width: 1px;
+}
+
+.copyright p{
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/*Admisiones*/
+
+.title h1{
+    font-family: 'Whitney', sans-serif;
+    font-size: 60px;
+    color: #002145;
+    text-transform: uppercase;
+}
+
+.subtitle h2{
+    font-family: 'Whitney', sans-serif;
+    font-size: 50px;
+    color: rgba(73,127,163,1);
+}
+
+.subtitle h3{
+    font-family: 'Whitney', sans-serif;
+    font-size: 30px;
+    color: rgba(73,127,163,1);
+}
+
+.navigation h2{
+    padding-left: 2rem;
+    padding-top: 9px;
+    font-family: 'Whitney', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.navigation button{
+    background-color: #ff4b33;
+    height: 57px;
+}
+
+.navigation button:hover{
+    background-color: #f84d45;
+}
+
+#section{
+    border-top-style: solid;
+    border-color: #e5e5e5;
+    border-width: 1px;
+}
+
+
+
+
