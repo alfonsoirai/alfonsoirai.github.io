@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
+	<link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>MiCBTis - CBTis 226</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Bootstrap core CSS     -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--  Material Dashboard CSS    -->
+    <link href="../assets/css/material-dashboard.css" rel="stylesheet"/>
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="../assets/css/demo.css" rel="stylesheet" />
+
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+	    <div class="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
+			<!--
+		        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+
+		        Tip 2: you can also add an image using data-image tag
+		    -->
+
+			<div class="logo">
+				<a href="http://www.creative-tim.com" class="simple-text">
+					<img src="/img/miCBTis-logo.png" width="150px">
+				</a>
+			</div>
+
+	    	<div class="sidebar-wrapper">
+	            <ul class="nav">
+	                <li class="active">
+	                    <a href="dashboard.html">
+	                        <i class="material-icons">dashboard</i>
+	                        <p>Inicio</p>
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="">
+	                        <i class="material-icons">person</i>
+	                        <p>Perfil del estudiante</p>
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="">
+	                        <i class="material-icons">date_range</i>
+	                        <p>Calendario</p>
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="">
+	                        <i class="material-icons">school</i>
+	                        <p>Schoology</p>
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="">
+	                        <i class="material-icons">apps</i>
+	                        <p>Apps</p>
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="">
+	                        <i class="material-icons">location_on</i>
+	                        <p>Mapas</p>
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="">
+	                        <i class="material-icons text-gray">notifications</i>
+	                        <p>Notificaciones</p>
+	                    </a>
+	                </li>
+	                <li class="active-pro">
+                        <a href="/index.html">
+	                        <img src="/img/CBTIS226-logo-dark.png" width="200px">
+	                    </a>
+                    </li>
+	            </ul>
+	            
+	    	</div>
+	    </div>
+
+	    <div class="main-panel">
+			<nav class="navbar navbar-transparent navbar-absolute">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Buenas tardes, Alfonso Ira&iacute;</a>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="material-icons">dashboard</i>
+									<p class="hidden-lg hidden-md">Dashboard</p>
+								</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="material-icons">notifications</i>
+									<span class="notification">3</span>
+									<p class="hidden-lg hidden-md">Notifications</p>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Rodolfo Gallardo ha publicado una calificaci&oacute;n</a></li>
+									<li><a href="#">Tu constancia ya est&aacute; disponible</a></li>
+									<li><a href="#">Te queda una falta disponible en Ingl&eacute;s III</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
+	 							   <i class="material-icons">person</i>
+	 							   <p class="hidden-lg hidden-md">Profile</p>
+		 						</a>
+							</li>
+						</ul>
+
+						<form class="navbar-form navbar-right" role="search">
+							<div class="form-group  is-empty">
+								<input type="text" class="form-control" placeholder="Buscar">
+								<span class="material-input"></span>
+							</div>
+							<button type="submit" class="btn btn-white btn-round btn-just-icon">
+								<i class="material-icons">search</i><div class="ripple-container"></div>
+							</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+
+			<div class="content">
+				<div class="container-fluid">
+					<div class="row">
+					<div class="col-lg-6 col-md-12">
+							<div class="card card-nav-tabs">
+								<div class="card-header" data-background-color="red">
+									<div class="nav-tabs-navigation">
+										<div class="nav-tabs-wrapper">
+											<span class="nav-tabs-title">Calificaciones y horarios:</span><br><br><br>
+											<ul class="nav nav-tabs" data-tabs="tabs">
+												<li class="active">
+													<a href="#profile" data-toggle="tab">
+														Mi boleta
+													<div class="ripple-container"></div></a>
+												</li>
+												<li class="">
+													<a href="#messages" data-toggle="tab">
+														Mi horario
+													<div class="ripple-container"></div></a>
+												</li>
+												<li class="">
+													<a href="#settings" data-toggle="tab">
+														Mis profesores
+													<div class="ripple-container"></div></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<div class="card-content">
+									<div class="tab-content">
+										<div class="tab-pane active" id="profile">
+											<table class="table">
+												<tbody>
+													<tr>
+														<td>
+															
+														</td>
+														<td>Geometr&iacute;a anal&iacute;tica</td>
+														<td class="td-actions text-right">
+															<button type="button" rel="tooltip" title="Faltas" class="btn btn-primary btn-simple btn-xs">
+																1
+															</button>
+															<button rel="tooltip" title="Calificaci&oacute;n" class="btn btn-danger btn-simple btn-xs">
+																9 - P1
+															</button>
+														</td>
+													</tr>
+													<tr>
+														<td>
+														</td>
+														<td>Ingl&eacute;s III</td>
+														<td class="td-actions text-right">
+															<button type="button" rel="tooltip" title="Faltas" class="btn btn-primary btn-simple btn-xs">
+																3
+															</button>
+															<button type="button" rel="tooltip" title="Calificaci&oacute;n" class="btn btn-danger btn-simple btn-xs">
+																10 - P1
+															</button>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															
+														</td>
+														<td>Biolog&iacute;a
+														</td>
+														<td class="td-actions text-right">
+															<button type="button" rel="tooltip" title="Faltas" class="btn btn-primary btn-simple btn-xs">
+																0
+															</button>
+															<button type="button" rel="tooltip" title="Calificaci&oacute;n" class="btn btn-danger btn-simple btn-xs">
+																8 - P1
+															</button>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															
+														</td>
+														<td>&Eacute;tica</td>
+														<td class="td-actions text-right">
+															<button type="button" rel="tooltip" title="Faltas" class="btn btn-primary btn-simple btn-xs">
+																0
+															</button>
+															<button type="button" rel="tooltip" title="Calificaci&oacute;n" class="btn btn-danger btn-simple btn-xs">
+																10 - P1
+															</button>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															
+														</td>
+														<td>Programaci&oacute;n orientada a objetos</td>
+														<td class="td-actions text-right">
+															<button type="button" rel="tooltip" title="Faltas" class="btn btn-primary btn-simple btn-xs">
+																1
+															</button>
+															<button type="button" rel="tooltip" title="Calificaci&oacute;n" class="btn btn-danger btn-simple btn-xs">
+																10 - P1
+															</button>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															
+														</td>
+														<td>Bases de datos avanzadas</td>
+														<td class="td-actions text-right">
+															<button type="button" rel="tooltip" title="Faltas" class="btn btn-primary btn-simple btn-xs">
+																0
+															</button>
+															<button type="button" rel="tooltip" title="Calificaci&oacute;n" class="btn btn-danger btn-simple btn-xs">
+																9 - P1
+															</button>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="tab-pane" id="messages">
+											<table class="table">
+												<tbody>
+													<tr>
+														<td>
+															7:00 AM
+														</td>
+														<td>Programaci&oacute;n orientada a objetos
+														</td>
+														<td class="td-actions text-right">
+															Sal&oacute;n:<br>CENCAR2
+														</td>
+													</tr>
+													<tr>
+														<td>
+															8:45 AM
+														</td>
+														<td>Geometr&iacute;a anal&iacute;tica
+														</td>
+														<td class="td-actions text-right" >
+															Sal&oacute;n:<br>A-17
+														</td>
+													</tr>
+													<tr>
+														<td>
+															10:30 AM
+														</td>
+														<td>Ingl&eacute;s III
+														</td>
+														<td class="td-actions text-right" >
+															Sal&oacute;n:<br>A-17
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="tab-pane" id="settings">
+											<table class="table">
+												<tbody>
+													<tr>
+														<td>
+															
+														</td>
+                                                        <td>Rodolfo Gallardo Rosales<br><p style="color: gray; font-size: 12px;">Programaci&oacute;n orientada a objetos</p></td>
+														<td class="td-actions text-right">
+														</td>
+													</tr>
+													<tr>
+														<td>
+															
+														</td>
+                                                        <td>X&oacute;chitl Zerme&ntilde;o Caro<br><p style="color: gray; font-size: 12px;">&Eacute;tica</p></td>
+														<td class="td-actions text-right">
+														</td>
+													</tr>
+													<tr>
+														<td>
+															
+														</td>
+                                                        <td>Rosa Mar&iacute;a Cuevas Curiel<br><p style="color: gray; font-size: 12px;">Base de datos avanzadas</p></td>
+														<td class="td-actions text-right">
+														</td>
+													</tr>
+													<tr>
+														<td>
+															
+														</td>
+                                                        <td>Diana Rios Barrera<br><p style="color: gray; font-size: 12px;">Ingl&eacute;s III</p></td>
+														<td class="td-actions text-right">
+														</td>
+													</tr>
+													<tr>
+														<td>
+															
+														</td>
+                                                        <td>H&eacute;ctor Amezcua Gonz&aacute;lez<br><p style="color: gray; font-size: 12px;">Geometr&iacute;a anal&iacute;tica</p></td>
+														<td class="td-actions text-right">
+														</td>
+													</tr>
+													<tr>
+														<td>
+															
+														</td>
+                                                        <td>Elvira Ascencio Ram&iacute;rez<br><p style="color: gray; font-size: 12px;">Biolog&iacute;a</p></td>
+														<td class="td-actions text-right">
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12">
+							<div class="card">
+	                            <div class="card-header" data-background-color="blue">
+	                                <h4 class="title">Aplicaciones</h4>
+	                                <p class="category">Servicios, herramientas y plataformas</p>
+	                            </div>
+	                            <div class="card-content table-responsive">
+	                                <table class="table table-hover">
+	                                    <tbody>
+                                           
+	                                        <tr> <a href="https://www.schoology.com/" target="_blank">
+	                                        	<td><img src="../assets/img/icons/schoology.png"/></td>
+	                                        	<td>Schoology</td></a>
+	                                        </tr>
+	                                        <tr> <a href="https://www.schoology.com/" target="_blank">
+	                                        	<td><img src="../assets/img/icons/drive.png"/></td>
+	                                        	<td>Google Drive</td></a>
+	                                        </tr>
+	                                        <tr> <a href="https://www.schoology.com/" target="_blank">
+	                                        	<td><img src="../assets/img/icons/classroom-logo.png"/></td>
+	                                        	<td>Classroom</td></a>
+	                                        </tr>
+	                                        <tr>
+	                                        	<td><a href="https://www.schoology.com/" target="_blank"><img src="../assets/img/icons/docs.png"/></a></td>
+	                                        	<td>Google Docs</td>
+	                                        </tr>
+	                                        <tr> <a href="https://www.schoology.com/" target="_blank">
+	                                        	<td><img src="../assets/img/icons/office.png"/></td>
+	                                        	<td>Office 365</td></a>
+	                                        </tr>
+	                                        <tr> <a href="https://www.schoology.com/" target="_blank">
+	                                        	<td><img src="../assets/img/icons/dropbox.svg"/></td>
+	                                        	<td>Dropbox</td></a>
+	                                        </tr>
+	                                    </tbody>
+	                                </table>
+	                            </div>
+	                        </div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="card card-stats">
+								<div class="card-header" data-background-color="orange">
+									<i class="material-icons">content_copy</i>
+								</div>
+								<div class="card-content">
+									<p class="category">Servicios</p>
+									<h3 class="title">Alumnos<small></small></h3>
+								</div>
+								<div class="card-footer">
+									<div class="stats">
+										<i class="material-icons text-danger">open_in_new</i> <a href="#">Solicitar servicio</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="card card-stats">
+								<div class="card-header" data-background-color="green">
+									<i class="material-icons">wb_sunny</i>
+								</div>
+								<div class="card-content">
+									<p class="category">Cd. Guzm&aacute;n, Jal.</p>
+									<h3 class="title">16&deg;C</h3>
+								</div>
+								<div class="card-footer">
+									<div class="stats">
+										<i class="material-icons">update</i> Just Updated
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer">
+				<div class="container-fluid">
+					<nav class="pull-left">
+						<ul>
+							<li>
+								<a href="/index.html">
+									Inicio
+								</a>
+							</li>
+							<li>
+								<a href="/alumnos/">
+									Alumnos
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<p class="copyright pull-right">
+						&copy; <script>document.write(new Date().getFullYear())</script> <a href="http://www.creative-tim.com">Creative Tim</a>, Centro de Bachillerato Tecnol&oacute;gico, Industrial y de Servicios 226 
+					</p>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+</body>
+
+	<!--   Core JS Files   -->
+	<script src="../assets/js/jquery-3.1.0.min.js" type="text/javascript"></script>
+	<script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../assets/js/material.min.js" type="text/javascript"></script>
+
+	<!--  Charts Plugin -->
+	<script src="../assets/js/chartist.min.js"></script>
+
+	<!--  Notifications Plugin    -->
+	<script src="../assets/js/bootstrap-notify.js"></script>
+
+	<!--  Google Maps Plugin    -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+	<!-- Material Dashboard javascript methods -->
+	<script src="../assets/js/material-dashboard.js"></script>
+
+	<!-- Material Dashboard DEMO methods, don't include it in your project! -->
+	<script src="../assets/js/demo.js"></script>
+
+	<script type="text/javascript">
+    	$(document).ready(function(){
+
+			// Javascript method's body can be found in assets/js/demos.js
+        	demo.initDashboardPageCharts();
+
+    	});
+	</script>
+
+</html>
