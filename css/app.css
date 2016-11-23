@@ -1,8 +1,8 @@
 @font-face { font-family: Whitney; font-weight: 200; src: url('../fonts/Whitney-Book.otf'); } 
-@font-face { font-family: Whitney; font-weight: 700; src: url('../fonts/Whitney-Bold.otf');}
+@font-face { font-family: Whitney; font-weight: 800; src: url('../fonts/Whitney-Bold.otf');}
 @font-face { font-family: Whitney; font-weight: 100; src: url('../fonts/Whitney-Light.otf');}
-@font-face { font-family: Whitney; font-weight: 500; src: url('../fonts/Whitney-Medium.otf');}
-@font-face { font-family: Whitney; font-weight: 600; src: url('../fonts/Whitney-Semibold.otf');}
+@font-face { font-family: Whitney; font-weight: 600; src: url('../fonts/Whitney-Medium.otf');}
+@font-face { font-family: Whitney; font-weight: 500; src: url('../fonts/Whitney-Semibold.otf');}
 
 body{
     font-family: 'Whitney', sans-serif;
