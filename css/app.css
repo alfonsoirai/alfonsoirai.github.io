@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Whitney';
+	src: url(../fonts/Whitney-Book.otf);
+}
+
 body{
     font-family: 'Whitney', sans-serif;
 }
